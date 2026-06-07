@@ -90,7 +90,7 @@ html {
 .card {
   background-color: #f3f4f5;
   padding: 0rem;
-  margin: 2rem;
+  margin-bottom: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.5);
   display: flex;
@@ -146,4 +146,27 @@ html {
 }
 .card__desc-container {
   padding: 0 2rem 1rem 1rem;
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.pagination__link {
+  display: block;
+  color: #328677;
+  border: 0.125rem solid #328677;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.75rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.pagination__link:last-child {
+  margin-right: 0;
 }
